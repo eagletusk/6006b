@@ -33,6 +33,7 @@ const merge = (nums1, m, nums2, n) => {
         count++;
         if (count == n) {
           nums1.splice(nums1.length - n);
+          //comment
         }
       }
     }
